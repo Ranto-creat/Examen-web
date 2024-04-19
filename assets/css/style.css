@@ -310,3 +310,12 @@ header {
     width: 5dvw;
     aspect-ratio: 1/1;
 }
+
+/* Arrow-up */
+.arrow-up img {
+    position: fixed;
+    height: 8vh;
+    width: auto;
+    bottom: 0;
+    right: 0;
+}
