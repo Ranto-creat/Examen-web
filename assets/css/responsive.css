@@ -99,16 +99,14 @@
         display: flex;
         flex-direction: column;
         gap: 1vh;
-        padding: 0;
-        margin: 0;
     }
 
     .services__container__items {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 70vh;
-        gap: 1vh;
+        height: 65vh;
+        gap: 2vh;
     }
 
     .services__container__items__class {
@@ -116,7 +114,7 @@
         flex-direction: column;
         gap: 2px;
         width: 90%;
-        height: 30vh;
+        height: 40vh;
     }
 
     .services__container__items__class img {
@@ -128,6 +126,7 @@
         width: 20vw;
         height: 4vh;
         margin: 0;
+        border: 2px solid greenyellow;
     }
 
     #portfolio {
@@ -202,7 +201,7 @@
 
     }
 
-    .input__list {
+    .footer__section--form .input__list {
         display: flex;
         flex-direction: column;
     }
@@ -212,8 +211,8 @@
         height: 5vh;
     }
 
-    .input__message input {
-        width: 100%;
+    .footer__section--form .input__message input {
+        width: 85vw;
         height: 8vh;
     }
 
@@ -233,13 +232,12 @@
     }
 
     .footer__section button {
-        height: 4vh;
-        width: 20vw;
+        height: 5vh;
+        width: 55vw;
         border: none;
-        border-radius: 20px;
+        border-radius: 15px;
         background-color: var(--sky_background);
         color: rgb(255, 255, 255);
-        border: 2px solid grey;
         font-weight: 600;
     }
 
