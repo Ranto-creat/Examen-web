@@ -132,6 +132,119 @@
         margin: 0;
     }
 
+    #portfolio {
+        height: auto;
+        width: auto;
+        transform: translateY(-5vh);
+    }
+
+    .portfolio__images {
+        width: 95dvw;
+        height: 80vh;
+    }
+
+    .portfolio__images img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img1 {
+        /* background-size: cover; */
+        grid-row: 1 / 2;
+    }
+
+    .img3 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+    }
+
+    .img6 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+    }
+
+    .footer {
+        height: 90vh;
+        width: 100%;
+
+        .footer__section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 6vh;
+            gap: 3vh;
+
+            .footer__section--contact {
+                display: flex;
+                flex-direction: column;
+                gap: 1vh;
+            }
+
+            .footer__section--contact h1 {
+                text-align: center;
+                margin: 1vh;
+            }
+        }
+
+        .footer__section button {
+            width: 20vw;
+            height: 4vh;
+            border-radius: 10px;
+        }
+
+    }
+
+    .footer__section--form .all__input {
+        width: 95vw;
+        height: auto;
+        display: flex;
+        gap: 1vh;
+
+        .input__list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input__list input {
+            width: 55vw;
+            height: 5vh;
+        }
+
+        .input__message input {
+            width: 100%;
+            height: 8vh;
+        }
+    }
+
+    .footer__social img {
+        height: 3vh;
+    }
+
+    .footer__social__icons {
+        display: flex;
+        gap: 1.2vh;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__section button {
+        height: 4vh;
+        width: 20vw;
+        border: none;
+        border-radius: 20px;
+        background-color: var(--sky_background);
+        color: rgb(255, 255, 255);
+        border: 2px solid grey;
+        font-weight: 600;
+    }
+
 
     /* Arrow-up */
     .arrow-up img {
