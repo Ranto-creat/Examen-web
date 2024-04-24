@@ -29,19 +29,21 @@ header {
     background-color: var(--sky_background);
     z-index: 1;
 
-    .header__logo {
-        display: flex;
-        font-size: 1.3rem;
-        font-weight: 600;
+}
 
-        .header__logo--one {
-            color: rgb(2, 10, 32);
-        }
+.header__logo {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 600;
 
-        .header__logo--two {
-            color: white;
-        }
-    }
+}
+
+.header__logo--one {
+    color: rgb(2, 10, 32);
+}
+
+.header__logo--two {
+    color: white;
 }
 
 /* navbar */
@@ -52,32 +54,32 @@ header {
     list-style: none;
     margin-right: 4vw;
 
+}
 
-    .header__nav__list--item a {
-        text-decoration: none;
-        color: rgb(254, 254, 254);
-        font-size: 1.1rem;
-        font-weight: 600;
-        padding: 3px;
-        position: relative;
-        overflow: hidden;
-    }
+.header__nav__list--item a {
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+}
 
-    .header__nav__list--item a::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 2.5px;
-        background-color: #ffffff;
-        transition: width 0.35s ease, left 0.3s ease;
-    }
+.header__nav__list--item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2.5px;
+    background-color: #ffffff;
+    transition: width 0.35s ease, left 0.3s ease;
+}
 
-    .header__nav__list--item a:hover::after {
-        width: 99%;
-        left: 0;
-    }
+.header__nav__list--item a:hover::after {
+    width: 99%;
+    left: 0;
 }
 
 .search__bar img {
@@ -175,15 +177,14 @@ header {
     align-items: center;
     padding-top: 15vh;
     gap: 1vh;
+}
 
+.about__container__title--one {
+    color: var(--sky_background);
+}
 
-    .about__container__title--one {
-        color: var(--sky_background);
-    }
-
-    .about__container__title--two {
-        color: rgb(0, 0, 0);
-    }
+.about__container__title--two {
+    color: rgb(0, 0, 0);
 }
 
 .about__container__info {
@@ -191,26 +192,27 @@ header {
     justify-content: space-around;
     margin-top: 4vh;
 
-    .about__container__info--txt {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: start;
-    }
+}
 
-    .about__container__info--txt button {
-        height: 6vh;
-        width: 15vh;
-        border: none;
-        border-radius: 4px;
-        font-size: 0.9rem;
-        background-color: var(--sky_background);
-    }
+.about__container__info--txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
 
-    .about__container__info--txt button:hover {
-        background-color: var(--color);
-        transition: 500ms ease-in-out;
-    }
+.about__container__info--txt button {
+    height: 6vh;
+    width: 15vh;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background-color: var(--sky_background);
+}
+
+.about__container__info--txt button:hover {
+    background-color: var(--color);
+    transition: 500ms ease-in-out;
 }
 
 .about__container__info img {
@@ -259,17 +261,19 @@ header {
     padding: 2vh;
     gap: 3vh;
 
-    .services__container__title {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 2vh;
+}
 
-        .services__container__title--two {
-            color: var(--sky_background);
-        }
-    }
+.services__container__title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+}
+
+.services__container__title--two {
+    color: var(--sky_background);
 }
 
 .services__container__items {
@@ -279,28 +283,30 @@ header {
     align-items: center;
     text-align: center;
     margin-top: 4vh;
-
-    .services__container__items__class {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2vh;
-        height: 45dvh;
-        width: 30dvw;
-        background-color: rgb(226, 226, 222);
-        border-radius: 6px;
-
-        .services__container__items__class--read:hover {
-            color: var(--sky_background);
-        }
-    }
-
-    .services__container__items__class p {
-        font-size: 0.9rem;
-        margin: 2vh;
-    }
 }
+
+.services__container__items__class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    height: 45dvh;
+    width: 30dvw;
+    background-color: rgb(226, 226, 222);
+    border-radius: 6px;
+
+}
+
+.services__container__items__class--read:hover {
+    color: var(--sky_background);
+}
+
+.services__container__items__class p {
+    font-size: 0.9rem;
+    margin: 2vh;
+}
+
 
 .services__container__items__class a {
     text-decoration: none;
@@ -323,13 +329,13 @@ header {
     height: auto;
     width: 100%;
     padding-top: 12vh;
+}
 
-    .portfolio__title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 2vh;
-    }
+.portfolio__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh;
 }
 
 .portfolio__title p {
@@ -421,60 +427,61 @@ header {
     color: white;
     height: 90vh;
     width: 100%;
-
-    .footer__section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-top: 15vh;
-    }
-
-    .footer__section--contact {
-        display: flex;
-        flex-direction: column;
-        gap: 2.5vh;
-    }
-
-    .footer__section--form .input__list {
-        display: flex;
-        flex-direction: row;
-        gap: 3vw;
-    }
-
-    .footer__section--form input {
-        width: 18vw;
-        height: 6vh;
-        background: transparent;
-        border: 2px solid var(--sky_background);
-        border-radius: 5px;
-        color: white;
-        font-size: 0.9rem;
-    }
-
-    .footer__section--form .input__message input {
-        width: 39vw;
-        height: 10vh;
-    }
-
-    .footer__section--form p {
-        color: rgb(155, 222, 255);
-    }
-
-    .footer__section button {
-        width: 39vw;
-        height: 7vh;
-        border: none;
-        border-radius: 20px;
-        background-color: var(--sky_background);
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-        transition: all 500ms ease;
-    }
-
-    .footer__section button:hover {
-        background-color: rgb(45, 117, 146);
-    }
 }
+
+.footer__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15vh;
+}
+
+.footer__section--contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+}
+
+.footer__section--form .input__list {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+.footer__section--form input {
+    width: 18vw;
+    height: 6vh;
+    background: transparent;
+    border: 2px solid var(--sky_background);
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer__section--form .input__message input {
+    width: 39vw;
+    height: 10vh;
+}
+
+.footer__section--form p {
+    color: rgb(155, 222, 255);
+}
+
+.footer__section button {
+    width: 39vw;
+    height: 7vh;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--sky_background);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: all 500ms ease;
+}
+
+.footer__section button:hover {
+    background-color: rgb(45, 117, 146);
+}
+
 
 .all__input {
     display: flex;
